@@ -1,0 +1,29 @@
+{
+  "name": "ratelimit-canvas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive visualization of Fixed Window, Sliding Window, and Token Bucket rate limiters.",
+  "author": "Saeed Rumaneh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
